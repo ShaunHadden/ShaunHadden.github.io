@@ -25,9 +25,9 @@
 }
 
 .site-nav {
-    float: right;
+    float: center;
     line-height: 56px;
-
+    font-size: 30px;
     .menu-icon {
         display: none;
     }
@@ -38,7 +38,7 @@
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            margin-right: 50px;
         }
     }
 
