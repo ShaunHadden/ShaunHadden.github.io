@@ -43,9 +43,28 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-    max-width: 100%;
     vertical-align: middle;
-}
+    width:  200px;
+    height: auto;
+    border: 1px solid $text-color;
+
+
+  }
+
+
+
+.gal-img {
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+    border: 5px solid $text-color;
+
+    &:hover {
+    border: 5px solid $text-color-bold;
+
+    }
+    }
+
 
 
 
@@ -94,13 +113,8 @@ a {
     color: $text-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($text-color, 15%);
-    }
-
     &:hover {
-        color: $text-color-bold;
-        text-decoration: none;
+          color: $text-color-bold;
     }
 }
 
