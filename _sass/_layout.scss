@@ -98,6 +98,25 @@
     }
 }
 
+.footer-nav {
+        padding: 10px;
+        float: center;
+        font-size: 10px;
+        color: $text-color;
+        min-height: 56px;
+        position: relative;
+
+        .menu-icon {
+            display: none;
+        }
+}
+
+.footer-social-media {
+
+    img{
+      border: none;
+    }
+}
 .contact-panel {
   position: relative;
   display: inline-block;
