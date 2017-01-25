@@ -4,7 +4,6 @@
 @charset "utf-8";
 
 
-
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -14,10 +13,11 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #F0E68C;
+$text-color:       #F0E68C; 
 /* $text-color-bold:  #e5c100; */
 $text-color-bold:  white;
-$background-color: #101010;
+/* $background-color: #101010; */
+$background-color: black;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
