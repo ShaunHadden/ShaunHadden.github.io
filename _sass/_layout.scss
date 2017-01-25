@@ -144,7 +144,7 @@
         #button {
           a {
           color: black;
-          background-color: red; /* Green */
+          background-color: white; /* Green */
           margin-top: 125px;
           margin-right:-175px;
           text-align: center;
@@ -167,6 +167,8 @@
   }
       #jumbo-text{
         position: relative;
+        color: gold;
+        font-family: cursive;
         float: right;
         width: 30%;
         align: right;
@@ -174,6 +176,27 @@
         margin-right:50px;
       }
     }
+}
+
+.privacy-policy {
+
+  padding: 10px 10px 0px 10px;
+  padding-bottom:20px;
+  float: left;
+  font-size: 20px;
+  color: $text-color;
+  min-height: 56px;
+  position: relative;
+  width:1250px;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+
+  h1{
+    color: gold;
+    font-size: 30px;
+  }
+
 }
 
 @media (min-width: 576px) {
