@@ -46,7 +46,7 @@
 
       float:left;
       text-align:center;
-      margin-left:120px;
+      margin-left:140px;
       font-size: 20px;
 
     }
@@ -199,6 +199,24 @@
 
 }
 
+.gallery {
+
+  padding: 10px 10px 0px 10px;
+  padding-bottom:20px;
+  float: left;
+  min-height: 56px;
+  position: relative;
+  width:1250px;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+
+  .gal-img{
+      margin:10px;
+  }
+
+}
+
 @media (min-width: 576px) {
   .jumbotron {
     padding: 4rem 2rem;
@@ -299,25 +317,35 @@
   position: relative;
   display: inline-block;
   overflow: hidden;
+  width: 1050px;
   height: 300px;
-  width: 1150px;
-  padding: 50px;
-  margin-left: 70px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-
-
+  margin-left: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 
   .services-left {
     position: relative;
     display: inline-block;
     float: left;
-    width: 50%;
+    height: 275px;
 
-    .gal-img{
-        padding:20px;
+    img {
+      height: 250px;
+      border-radius: 2px;
+      margin:20px;
+      width: 250px;
+      border: none;
     }
 
+    .services-img{
+
+
+    }
+
+    .services-text{
+        margin:20px;
+        width: 685px;
+    }
 
   }
 
@@ -325,7 +353,23 @@
     position: relative;
     display: inline-block;
     float: right;
-    width: 50%;
+    height: 275px;
+
+    img {
+      height: 250px;
+      border-radius: 2px;
+      margin:20px;
+      width: 250px;
+      border: none;
+    }
+
+    .services-img{
+    }
+
+    .services-text{
+        margin:20px;
+        width: 685px;
+    }
 
   }
 
