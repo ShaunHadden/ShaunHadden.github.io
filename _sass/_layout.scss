@@ -27,7 +27,7 @@
 
 .site-nav {
     padding: 10px 10px 0px 10px;
-    padding-bottom:20px;
+    padding-bottom:0px;
     float: left;
     font-size: 30px;
     font-family: cursive;
@@ -37,22 +37,23 @@
     /* border-bottom: 1px solid $grey-color-light; */
     min-height: 56px;
     position: relative;
-    width:1250px;
+    width:1350px;
     text-align: center;
-    margin-left: -80px;
+    margin-left: 20px;
     margin-top: 20px;
 
     .slogan{
 
       float:left;
       text-align:center;
-      margin-left:140px;
-      font-size: 20px;
+      margin-left:2px;
+      font-size: 16px;
 
     }
 
     img{
     width: 200px;
+    display: inline-block;
     height: auto;
     border: none;
     }
@@ -62,10 +63,21 @@
 
     .page-link {
         // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
             margin-left: 50px;
             margin-right: 50px;
-        }
+    }
+
+    .bbb-logo{
+      position: relative;
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      padding-top: 65px;
+      padding-left: 70px;
+      margin-left: 0px;
+      padding-right:50px;
+      float: right;
+      border: none;
     }
 
     @include media-query($on-palm) {
@@ -123,36 +135,59 @@
 
 .main-page{
 
-    padding: 100px 100px 100px 100px;
+    padding: 25px 25px 25px 25px;
     position: relative;
-    display: inline;
+    display: inline-block;
     width:1250px;
     text-color: blue;
 
-    .jumbotron {
+    .jumbotron-left {
       height: 300px;
-      width: 800px;
-      background-image: url(/images/heart_necklace_crop.jpg);
+      width: 750px;
+      float: left;
+      background-image: url(/images/cover_photo_1.jpg);
       background-size: 100% 100%;
+      border-radius: 30px;
       background-position: left;
       background-repeat: no-repeat;
       background-color: #eceeef;
       position: relative;
-      display: block;
+      display: inline-block;
+      margin-left: 20px;
+      #jumbo-text{
+        position: relative;
+        color: black;
+        float: right;
+        width: 30%;
+        align: right;
+        margin-top: 25px;
+        margin-right:50px;
+      }
+    }
 
+    .jumbotron-right {
+      height: 300px;
+      width: 350px;
+      background-image: url(/images/heart_necklace_crop.jpg);
+      background-size: 100% 100%;
+      border-radius: 30px;
+      background-position: left;
+      background-repeat: no-repeat;
+      background-color: #eceeef;
+      position: relative;
+      display: inline-block;
+      margin-left: 20px;
 
         #button {
           a {
           color: black;
-          background-color: white; /* Green */
-          margin-top: 125px;
-          margin-right:-175px;
-          text-align: center;
+          background-color:gold;
+          margin-top:250px;
+          margin-left:70px;
           text-decoration: none;
           position: relative;
-          float: right;
-          align: right;
-          width: 10%;
+          display: inline-block;
+          width:120px;
           font-size: 16px;
           border: 2px solid gold;
           border-radius: 3px;
@@ -165,16 +200,7 @@
         }
       }
   }
-      #jumbo-text{
-        position: relative;
-        color: gold;
-        font-family: cursive;
-        float: right;
-        width: 30%;
-        align: right;
-        margin-top: 25px;
-        margin-right:50px;
-      }
+
     }
 }
 
@@ -318,22 +344,22 @@
   display: inline-block;
   overflow: hidden;
   width: 1050px;
-  height: 300px;
+  height: 275px;
   margin-left: 30px;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-bottom: 2px;
+  margin-top: 2px;
 
   .services-left {
     position: relative;
     display: inline-block;
     float: left;
-    height: 275px;
+    height: 250px;
 
     img {
-      height: 250px;
-      border-radius: 2px;
+      height: 220px;
+      border-radius: 40px;
       margin:20px;
-      width: 250px;
+      width: 220px;
       border: none;
     }
 
@@ -343,7 +369,7 @@
     }
 
     .services-text{
-        margin:20px;
+        margin:20px 0px 20px 0px;
         width: 685px;
     }
 
@@ -353,13 +379,13 @@
     position: relative;
     display: inline-block;
     float: right;
-    height: 275px;
+    height: 250px;
 
     img {
-      height: 250px;
-      border-radius: 2px;
+      height: 220px;
+      border-radius: 40px;
       margin:20px;
-      width: 250px;
+      width: 220px;
       border: none;
     }
 
@@ -367,7 +393,7 @@
     }
 
     .services-text{
-        margin:20px;
+        margin:20px 0px 20px 0px;
         width: 685px;
     }
 
